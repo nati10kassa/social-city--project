@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>City Social - Posts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/posts.css">
+</head>
+<body>
+
+<header class="header">
+  <h2>City Social</h2>
+  <nav>
+    <a href="home.html">בית</a>
+    <a href="/logout">התנתקות</a>
+  </nav>
+</header>
+
+<main class="container">
+  <h1>פוסטים בקהילה</h1>
+
+  <div class="posts-form">
+    <h2>➕ פוסט חדש</h2>
+
+    <form id="postForm">
+      <input type="text" id="title" placeholder="כותרת" required>
+      <input type="text" id="content" placeholder="תוכן" required>
+      <button type="submit">הוסף פוסט</button>
+    </form>
+  </div>
+
+  <ul id="postsList"></ul>
+</main>
+
+<footer class="footer">
+  <p>© 2026 City Social</p>
+</footer>
+
+<script src="js/posts.js"></script>
+</body>
+</html>
